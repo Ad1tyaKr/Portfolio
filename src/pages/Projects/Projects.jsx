@@ -41,7 +41,7 @@ const projects = [
   {
     title: "🚑हमcare | Ambulance booking System",
     description:
-      "Reduced vendor sourcing time by 40% via real-time farmer-vendor matching using Google Maps API. Deployed a multilingual AI chatbot (90%+ accuracy) for 24/7 farmer support and secured transactions using blockchain (Moralis) and JWT authentication. Tech Stack: Google Maps API, TensorFlow, PyTorch, Moralis, JWT",
+      "Built a real-time ambulance dispatch system that reduced response time by 35% using Google Maps API for live tracking and route optimization. Integrated OTP-secured user authentication and instant volunteer alerts to enable 24/7 emergency access. Leveraged AI models for geolocation analysis, achieving 95%+ ETA prediction accuracy.",
     src: "house.jpg",
     link: image4,
     color: "#ed649e",
