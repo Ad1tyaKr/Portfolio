@@ -2,6 +2,10 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
+import image1 from "@/assets/images/Screenshot 2025-07-03 014027.png";
+import image2 from "@/assets/images/Screenshot 2025-07-02 182957.png";
+import image3 from "@/assets/images/Screenshot 2025-07-02 184004.png";
+import image4 from "@/assets/images/Hospital-Management-System-01.png";
 
 const projects = [
   {
@@ -9,7 +13,7 @@ const projects = [
     description:
       "An AI-powered entertainment interface that enhances digital streaming with real-time emotional personalization, fatigue-aware design and accessibility features. Tech Stack: Next.js, TypeScript, TailwindCSS, ShadCN UI, Framer Motion, TMDB API, Firebase (optional)",
     src: "rock.jpg",
-    link: "/src/assets/images/Screenshot 2025-07-03 014027.png",
+    link: image1,
     color: "#5196fd",
     githubLink: "https://github.com/Ad1tyaKr/FireLoop",
     liveLink: "https://ad1tyakr.github.io/FireLoop/",
@@ -19,7 +23,7 @@ const projects = [
     description:
       "Increased adoption visibility by 50% with real-time listings and AI-based pet matching. Integrated Firebase Auth, JWT sessions, Stripe donations, and a 24/7 AI chatbot for pet care. Tech Stack: MERN, Firebase, JWT, Stripe API",
     src: "water.jpg",
-    link: "/src/assets/images/Screenshot 2025-07-02 182957.png",
+    link: image2,
     color: "#fff",
     githubLink: "https://github.com/Ad1tyaKr/OnlyPaws",
     liveLink: "https://github.com/Ad1tyaKr/OnlyPaws",
@@ -29,7 +33,7 @@ const projects = [
     description:
       "Built a high-accuracy (98%, R² = 0.9898) ML model using Random Forest and XGBoost to optimize fantasy teams. Engineered features from player stats, venues, pitch, and weather. Automated data scraping with Selenium and deployed via Docker.",
     src: "tree.jpg",
-    link: "/src/assets/images/Screenshot 2025-07-02 184004.png",
+    link: image3,
     color: "#8f89ff",
     githubLink: "https://github.com/Ad1tyaKr/Dream11",
     liveLink: "https://github.com/Ad1tyaKr/Dream11",
@@ -39,7 +43,7 @@ const projects = [
     description:
       "Reduced vendor sourcing time by 40% via real-time farmer-vendor matching using Google Maps API. Deployed a multilingual AI chatbot (90%+ accuracy) for 24/7 farmer support and secured transactions using blockchain (Moralis) and JWT authentication. Tech Stack: Google Maps API, TensorFlow, PyTorch, Moralis, JWT",
     src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    link: image4,
     color: "#ed649e",
     githubLink: "https://github.com/Ad1tyaKr",
   },
