@@ -84,6 +84,13 @@ const CertSection
       company: "Google",
       period: "Mar 2024",
     },
+    {
+      icon: PiCertificate,
+      link: "https://drive.google.com/file/d/1rGI86pOXHpsweh4GJ_TAFFVMd6phaikv/view?usp=drive_link",
+      title: "Data Science & Analytics",
+      company: "HP",
+      period: "Feb 2024",
+    },
   ];
 
   return (
